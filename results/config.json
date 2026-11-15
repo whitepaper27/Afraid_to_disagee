@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "dtype": "float16",
+  "n_questions": 600,
+  "pilot_n": 100,
+  "max_chars": 1500,
+  "holdout_frac": 0.2,
+  "seed": 0,
+  "batch_size": 8,
+  "n_emotion_texts": 400,
+  "layer_band": [
+    19,
+    27
+  ],
+  "alphas": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "n_random_dirs": 10,
+  "out_dir": "/kaggle/working/results"
+}

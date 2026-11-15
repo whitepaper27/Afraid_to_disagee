@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results.zip
+results_v2.zip
+
+# planning files (local only)
+CLAUDE.md
+tasks.md
+goal.md
+architecture.md
